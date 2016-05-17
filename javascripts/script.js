@@ -1,7 +1,8 @@
 document.getElementById("nav01").innerHTML =
-"<ul id='menu'>" +
-"<li><a href='index.html'>Home</a></li>" +
-"<li><a href='../projects/project1.html'>Data</a></li>" +
+"<ul id='topnav'>" +
+	"<li><a href=''>Home</a></li>" + 
+  	"<li><a href='../projects/project1'>Project 1</a></li>" + 
+  	"<li><a href='../projects/project1'>Project 2</a></li>" + 
 "</ul>";
 
 function myFunction() {
