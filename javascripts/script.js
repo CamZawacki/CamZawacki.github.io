@@ -1,1 +1,5 @@
-document.getElementById("nav01").innerHTML = '<object type="text/html" data="navbar.html" ></object>';
+document.getElementById("nav01").innerHTML =
+"<ul id='menu'>" +
+"<li><a href='index.html'>Home</a></li>" +
+"<li><a href='../projects/project1.html'>Data</a></li>" +
+"</ul>";
