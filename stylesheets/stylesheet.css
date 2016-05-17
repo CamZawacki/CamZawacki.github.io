@@ -293,7 +293,7 @@ Full-Width Styles
   background: -ms-linear-gradient(top, #373737, #212121);
   background: -o-linear-gradient(top, #373737, #212121);
   background: linear-gradient(top, #373737, #212121);*/
-  background: url('../images/WaveFunction.png') #0090ff repeat 100% 100%;
+  background: url('../images/WaveFunction.png') #0090ff repeat 200% 50%;
 
 }
 
