@@ -3,3 +3,7 @@ document.getElementById("nav01").innerHTML =
 "<li><a href='index.html'>Home</a></li>" +
 "<li><a href='../projects/project1.html'>Data</a></li>" +
 "</ul>";
+
+function myFunction() {
+    document.getElementsByClassName("topnav")[0].classList.toggle("responsive");
+}
