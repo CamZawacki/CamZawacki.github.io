@@ -29,7 +29,6 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-      <p>
         <script src="http://d3js.org/d3.v3.js"></script>
 
         <script>
@@ -40,7 +39,7 @@
           });
 
           images.forEach(function(img) {
-            d3.select("body")
+            d3.select("main_content")
               .append("a")
               .attr("href", img.data.url)
               .append("img")
@@ -51,7 +50,6 @@
           });
         });
         </script>
-        </p>
 
       </section>
     </div>
