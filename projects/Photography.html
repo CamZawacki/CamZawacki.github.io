@@ -39,7 +39,7 @@
           });
 
           images.forEach(function(img) {
-            d3.select("main_content")
+            d3.selectAll("section")
               .append("a")
               .attr("href", img.data.url)
               .append("img")
