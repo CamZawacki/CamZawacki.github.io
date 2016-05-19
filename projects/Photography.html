@@ -42,13 +42,14 @@
           </style>
         <script>
 
-        var images =["../images/photography/bison.jpg"];
+        var source = "../images/photography/";
+        var images =[source+"bison.jpg",source+"Untitled_HDR2.jpg", source+"feast.jpg", source+"road.jpg", source+"water_hole.jpg", source + "WaterDrop.jpg", source + "hot_air_ballon.jpg"];
         images.forEach(function(img) {
             d3.selectAll("section")
               .append("a")
               .append("img")
               .attr({
-                height: 66,
+                height: 120,
                 src: img
               });
           });
