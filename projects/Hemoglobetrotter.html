@@ -88,21 +88,20 @@
               padding: 2px;
             }
             </style>
-          <script>
+ <script>
 
-          var source = "../images/hemoglobetrotter/";
-          var images = [source+"1.png",source + "1b.png", source+"2.png", source+"2b.png", source+"3.png", source+"3b.png", source+"back_1.jpg",  source + "Edison.jpg", source + "front_1.jpg" , source + "perfboard.jpg" , source + "top.jpg" , source + "top_open_2.jpg" , source + "Hemoglobetrotter.jpg"];
-          images.forEach(function(img) {
-              d3.selectAll("section")
-                .append("a")
-                .attr("href", img)
-                .append("img")
-                .attr({
-                  height: 66,
-                  src: img
-                });
-            });
-          </script>
+        var source = "../images/photography/";
+        var images =[source+"edit_face.png",source + "WaterDrop.jpg", source+"feast.jpg", source+"Untitled_HDR2.jpg", source+"bison.jpg", source+"road.jpg", source+"water_hole.jpg",  source + "hot_air_ballon.jpg", source + "fishers.jpg"];
+        images.forEach(function(img) {
+            d3.selectAll("section")
+              .append("a")
+              .attr("href", img)
+              .append("img")
+              .attr({
+                src: img
+              });
+          });
+        </script>
         
       </section>
     </div>
