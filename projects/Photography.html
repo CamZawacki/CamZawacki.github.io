@@ -43,13 +43,13 @@
         <script>
 
         var source = "../images/photography/";
-        var images =[source+"bison.jpg",source+"Untitled_HDR2.jpg", source+"feast.jpg", source+"road.jpg", source+"water_hole.jpg", source + "WaterDrop.jpg", source + "hot_air_ballon.jpg"];
+        var images =[source+"bison.jpg",source+"Untitled_HDR2.jpg", source+"feast.jpg", source+"road.jpg", source+"water_hole.jpg", source + "WaterDrop.jpg", source + "hot_air_ballon.jpg", source + "fisher.jpg"];
         images.forEach(function(img) {
             d3.selectAll("section")
               .append("a")
               .append("img")
               .attr({
-                height: 120,
+                height: 720,
                 src: img
               });
           });
