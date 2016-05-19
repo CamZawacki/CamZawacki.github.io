@@ -91,14 +91,14 @@
         <script>
 
           var source = "../images/hemoglobetrotter/";
-          var images = [source + "1b.png", source+"2b.png", source+"3b.png", source+"back_1.jpg",  source + "Edison.jpg", source + "front_1.jpg" , source + "perfboard.jpg" , source + "top.jpg" , source + "top_open_2.jpg" , source + "Hemoglobetrotter.jpg"];
+          var images = [source + "1b.png", source+"2b.png", source+"3b.png", source+"back_1.jpg",   source + "front_1.jpg" , source + "perfboard.jpg" ,  source + "top_open_2.jpg" ,source + "top.jpg" ,source + "Edison.jpg", source + "Hemoglobetrotter.jpg"];
           images.forEach(function(img) {
               d3.selectAll("section")
                 .append("a")
                 .attr("href", img)
                 .append("img")
                 .attr({
-                  width: 100,
+                  width: 200,
                   src: img
                 });
             });
