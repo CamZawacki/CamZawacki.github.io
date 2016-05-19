@@ -43,10 +43,11 @@
         <script>
 
         var source = "../images/photography/";
-        var images =[source+"bison.jpg",source+"Untitled_HDR2.jpg", source+"feast.jpg", source+"road.jpg", source+"water_hole.jpg", source + "WaterDrop.jpg", source + "hot_air_ballon.jpg", source + "fisher.jpg"];
+        var images =[source+"edit_face.png",source+"bison.jpg",source+"Untitled_HDR2.jpg", source+"feast.jpg", source+"road.jpg", source+"water_hole.jpg", source + "WaterDrop.jpg", source + "hot_air_ballon.jpg", source + "fishers.jpg"];
         images.forEach(function(img) {
             d3.selectAll("section")
               .append("a")
+              .attr("href", img)
               .append("img")
               .attr({
                 src: img
