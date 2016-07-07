@@ -1,0 +1,117 @@
+/*@font-face {
+    font-family: headerFont;
+    src: url(BEBAS.ttf);
+}*/
+
+@font-face {
+    font-family: BP;
+    src: url(BP.otf);
+}
+
+@font-face {
+    font-family: BEBAS;
+    src: url(BEBAS.ttf);
+}
+
+body {
+    margin: 0;
+}
+
+.upper_body {
+    background-color: rgb(249,249,249);
+    height: 88.5vh;
+    margin: 0;
+    padding: 0;
+}
+
+.upper_body_contents {
+    position: relative;
+    font-size: 200%;
+    font-family: BP;
+    font-style: italic;
+    color: rgb(17,17,17);
+    padding-top: 74vh;
+    text-align: center;
+    padding-left: 0;
+    margin: 0;
+}
+
+.upper_body_logo img {
+    position: absolute;
+    top: 5%;
+    left: 20%;
+}
+
+.upper_body_font {
+    font-family: headerFont;
+    letter-spacing: 2px;
+}
+
+.lower_body {
+    background-color: rgb(17,17,17);
+    height: 100vh;
+    margin: 0;
+}
+
+.button_upper {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    position: absolute;
+    margin-top: 10px;
+    background-color: rgb(17,17,17);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: BP;
+    font-style: bold;
+    left: 46vw;
+}
+
+.button_upper:hover {
+    background-color: rgb(249,249,249);
+    color: black;
+    border: 1px solid black;
+}
+
+.button_lower {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    position: absolute;
+    margin-top: 10px;
+    background-color: rgb(249,249,249);
+    border: none;
+    color: rgb(17,17,17);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: BP;
+    font-style: bold;
+    left: 46vw;
+}
+
+.button_lower:hover {
+    background-color: rgb(17,17,17);
+    color: rgb(249,249,249);
+    border: 1px solid rgb(17,17,17);
+}
+
+.question {
+    font-family: BEBAS;
+    font-size: 36px;
+    letter-spacing: 4px;
+    font-style: bold;
+    color: rgb(249,249,249);
+    margin-bottom: 15px;
+}
+
+.answer {
+    font-family: BP;
+    font-size: 30px;
+    color: rgb(249,249,249);
+}

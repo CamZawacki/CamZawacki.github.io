@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+    <title>The Official Shirt Company</title>
+    <link href="http://officialshirtco.com">
+    <meta content = "shirt" name = "keywords">
+    <meta content = "Online store for The Official Shirt Company" name = "description">
+    <meta content = "en" name = "language">
+    <link rel="stylesheet" type = "text/css" href="style.css">
+
+    <script type='text/javascript'>
+      var answerArray = new Array(
+        "We tell it like it is.",
+        "The only shirt to tell the truth",
+        "No. We do not sell pants pants.",
+        "you WILL get asked about it.",
+        "It's official.");
+
+      function getPhrase() {
+        document.getElementById('answerDiv').innerHTML = 
+          answerArray[Math.floor(Math.random() * answerArray.length)];
+      }
+    </script>
+
+</head>
+
+<body onLoad="getPhrase()">
+    <div class = "upper_body">
+    <div class = "upper_body_logo">
+        <a href="http://officialshirtco.com/purchase">
+            <img src = "picture_logo.png" >
+        </a>
+    </div>
+    <div class = "upper_body_contents" id='answerDiv'>
+    </div>
+    <a href="http://officialshirtco.com/purchase">
+    <button type="button" class = "button_upper">I Want One</button></a>
+    </div>
+    <div class = "lower_body">
+    <button type="button" class = "button_lower" onClick="document.getElementById('faq').scrollIntoView();" />Tell Me More</button></a>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <div id="faq">
+    <center>
+    <div class="question">Q: Should  I  buy  one?</div>
+    <div class="answer">A: Yes</div>
+    <br></br>
+    <div class="question">Q: Is  Cade  Awesome?</div>
+    <div class="answer">A: Yes</div>
+    </center>
+    </div>
+    </div>
+</body>
