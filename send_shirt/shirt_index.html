@@ -21,35 +21,48 @@
       }
     </script>
 
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script type="text/javascript" language="JavaScript">
+		function set_body_height()
+		{
+		    var wh = $(window).height();
+		    $('body').attr('style', 'height:' + wh + 'px;');
+		}
+		$(document).ready(function() {
+		    set_body_height();
+		    $(window).bind('resize', function() { set_body_height(); });
+		});
+	</script>
+
 </head>
 
 <body onLoad="getPhrase()">
     <div class = "upper_body">
-    <div class = "upper_body_logo">
-        <a href="http://officialshirtco.com/purchase">
-            <img src = "picture_logo.png" >
-        </a>
-    </div>
-    <div class = "upper_body_contents" id='answerDiv'>
-    </div>
-    <a href="http://officialshirtco.com/purchase">
-    <button type="button" class = "button_upper">I Want One</button></a>
+    	<div class = "upper_body_logo">
+	        <a href="http://officialshirtco.com/purchase">
+	            <img class="center fit" src = "picture_logo.png" >
+	        </a>
+   		</div>
+    	<div class = "upper_body_contents" id='answerDiv'>
+    	</div>
+    	<a href="http://officialshirtco.com/purchase">
+    	<button type="button" class = "button_upper">I Want One</button></a>
     </div>
     <div class = "lower_body">
-    <button type="button" class = "button_lower" onClick="document.getElementById('faq').scrollIntoView();" />Tell Me More</button></a>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <div id="faq">
-    <center>
-    <div class="question">Q: Should  I  buy  one?</div>
-    <div class="answer">A: Yes</div>
-    <br></br>
-    <div class="question">Q: Is  Cade  Awesome?</div>
-    <div class="answer">A: Yes</div>
-    </center>
-    </div>
+    	<button type="button" class = "button_lower" onClick="document.getElementById('faq').scrollIntoView();" />Tell Me More</button></a>
+	    <br></br>
+	    <br></br>
+	    <br></br>
+	    <br></br>
+	    <br></br>
+	    <div id="faq">
+	    	<center>
+		    	<div class="question">Q: Should  I  buy  one?</div>
+		    	<div class="answer">A: Yes</div>
+		    	<br></br>
+		    	<div class="question">Q: Is  Cade  Awesome?</div>
+		    	<div class="answer">A: Yes</div>
+	    	</center>
+    	</div>
     </div>
 </body>
