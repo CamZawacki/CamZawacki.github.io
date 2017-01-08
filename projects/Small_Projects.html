@@ -67,8 +67,8 @@
           </script>
 
         <h3>
-          <a id="thegame-intro" class="anchor" href="#thegame-intro" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Theg Ame</h3>
-          <p>We did a thing</p>
+          <a id="thegame-intro" class="anchor" href="#thegame-intro" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Board Game</h3>
+          <p>Over the course of a summer I designed and put together a custom board game. It is best described as a combination of Risk and Settlers of Catan. The rules are still currently in flux. All of the pieces were designed in Solidworks and laser cut by me.</p>
           
           <div id="pictures"></div>
 
@@ -87,6 +87,40 @@
 
           var source = "../images/thegame/";
           var images = [source + "Testing.jpg",source + "everything.png",source + "unit_upgrades.png",source + "shop.png",source + "pieces.png",source + "board_unfinished.png",source + "building_upgrades.png"];
+          images.forEach(function(img) {
+              d3.selectAll("section")
+                .append("a")
+                .attr("href", img)
+                .append("img")
+                .attr({
+                  width: 200,
+                  src: img
+                });
+            });
+          </script>
+
+
+        <h3>
+          <a id="engine-intro" class="anchor" href="#engine-intro" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Sterling Engine</h3>
+          <p>For a mechanical engineering class I designed and machined a gamma style sterling engine. The coils were a custom addon and able to produce a 0.3V difference across the terminals.</p>
+          
+          <div id="pictures"></div>
+
+       <script src="http://d3js.org/d3.v3.js"></script>
+       <style>
+            body {
+              background: #000;
+              margin: 2px;
+            }
+            img {
+              border-radius: 4px;
+              padding: 2px;
+            }
+            </style>
+        <script>
+
+          var source = "../images/sterling_engine/";
+          var images = [source + "sterling_1.jpg",source + "sterling_2.jpg",source + "sterling_3.jpg",source + "sterling_4.jpg"];
           images.forEach(function(img) {
               d3.selectAll("section")
                 .append("a")
