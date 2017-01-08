@@ -302,7 +302,7 @@ Full-Width Styles
 }
 
 .centered {
-  position: absolute;
+  position: relative;
   left: 50%;
   transform: translateX(-50%);
 }
