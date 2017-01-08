@@ -288,7 +288,7 @@ ul#topnav li.icon {display: none;}
 
 /*******************************************************************************
 Full-Width Styles
-*******************************************************************************/
+********************************s***********************************************/
 
 .outer {
   width: 100%;
@@ -302,9 +302,8 @@ Full-Width Styles
 }
 
 .centered {
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #forkme_banner {
