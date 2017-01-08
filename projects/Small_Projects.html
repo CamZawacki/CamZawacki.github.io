@@ -33,7 +33,7 @@
 
         <h3>
           <a id="wine-intro" class="anchor" href="#wine-intro" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Wine Cooler</h3>
-          <p>As a side project, I constructed a small wine cooler from scratch. It holds 3 bottles and maintains a temperature about 10 degrees Fahrenheit below room temperature. The frame was made in house from standard framing lumber. The cooling is done by a small thermoelectric cooler wedged between two desktop cpu cooling fans.</p>
+          <p>As a side project, I constructed a small wine cooler from scratch. It holds 3 bottles and maintains a temperature about 10 degrees Fahrenheit below room temperature. The frame was made in house from standard framing lumber. The cooling is done by a small thermoelectric cooler mounted between two desktop cpu cooling fans.</p>
 
           <div id="pictures"></div>
 
@@ -59,7 +59,8 @@
                 .append("img")
                 .attr({
                   width: 200,
-                  src: img
+                  src: img,
+                  align: "center"
                 });
             });
           </script>
@@ -84,7 +85,7 @@
         <script>
 
           var source = "../images/thegame/";
-          var images = [source + "Testing.jpg"];
+          var images = [source + "Testing.jpg",source + "everything.png",source + "unit_upgrades.png",source + "shop.png",source + "pieces.png",source + "board_unfinished.png",source + "building_upgrades.png"];
           images.forEach(function(img) {
               d3.selectAll("section")
                 .append("a")
