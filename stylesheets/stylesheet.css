@@ -301,6 +301,13 @@ Full-Width Styles
   margin: 0 auto;
 }
 
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
 #forkme_banner {
   display: block;
   position: absolute;
