@@ -301,12 +301,6 @@ Full-Width Styles
   margin: 0 auto;
 }
 
-.centered {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 #forkme_banner {
   display: block;
   position: absolute;
@@ -350,6 +344,7 @@ Full-Width Styles
   font-weight: 300;
   background: none;
   text-shadow: #111 0px 0px 10px;
+  text-align: center;
 }
 
 #downloads {
@@ -405,6 +400,10 @@ Full-Width Styles
   background: #212121;
 }
 
+#blurb {
+    text-align: center;
+}
+
 
 
 /*******************************************************************************
@@ -427,6 +426,7 @@ Small Device Styles
 
   #project_title {
   font-size: 32px;
+  text-align: center;
   }
 
   h1 {
