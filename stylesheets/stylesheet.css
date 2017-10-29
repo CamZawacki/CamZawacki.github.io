@@ -105,7 +105,7 @@ a {
   text-decoration: none;
   color: #007edf;
   text-shadow: none;
-  margin: auto auto;
+  margin: auto;
   transition: color 0.5s ease;
   transition: text-shadow 0.5s ease;
   -webkit-transition: color 0.5s ease;
@@ -135,7 +135,8 @@ strong {
 
 img {
   position: relative;
-  margin: auto auto;
+  width: 30%;
+  margin: auto;
   max-width: 900px;
   padding: 5px;
   margin: 10px 0 10px 0;
@@ -150,7 +151,8 @@ img {
 
 p img {
   display: inline;
-  margin: auto auto;
+  margin: auto;
+  width: 30%;
   padding: 0;
   vertical-align: middle;
   text-align: center;
@@ -298,7 +300,7 @@ Full-Width Styles
   position: relative;
   max-width: 800px;
   padding: 20px 10px;
-  margin: 0 auto;
+  margin: auto;
 }
 
 #forkme_banner {
