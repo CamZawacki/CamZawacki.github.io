@@ -29,7 +29,7 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        <script src="http://d3js.org/d3.v3.js"></script>
+        <script src="http://d3js.org/d3.v3.js" class="outer"></script>
           <style>
           body {
             background: #000;
@@ -38,6 +38,7 @@
           img {
             border-radius: 4px;
             padding: 2px;
+            width: 100%;
           }
           </style>
         <script>
@@ -48,7 +49,6 @@
             d3.selectAll("section")
               .append("a")
               .attr("href", img)
-              .attr("class","outer")
               .append("img")
               .attr({
                 src: img,
