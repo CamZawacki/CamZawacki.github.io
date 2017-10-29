@@ -34,9 +34,9 @@
           <a id="coffee-intro" class="anchor" href="#coffee-intro" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Sudo Make Coffee</h3>
           <p>Over a weekend I hacked my coffee machine to be wifi enabled and respond to voice commands. The original joke can be found here: <a href="https://xkcd.com/149/"> xkcd </a></p>
 
-          <div id="player"></div>
+          <div id="player" align="center"></div>
 
-          <script>
+          <script align="center">
             var tag = document.createElement('script');
 
             tag.src = "https://www.youtube.com/iframe_api";
@@ -46,8 +46,8 @@
             var player;
             function onYouTubeIframeAPIReady() {
               player = new YT.Player('player', {
-                height: '390',
-                width: '640',
+                height: '490',
+                width: '800',
                 videoId: 'o4SQfzXQW7s',
                 events: {
                   'onReady': onPlayerReady,
@@ -77,9 +77,9 @@
           <a id="wine-intro" class="anchor" href="#wine-intro" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Wine Cooler</h3>
           <p>As a side project, I constructed a small wine cooler from scratch. It holds 3 bottles and maintains a temperature about 10 degrees Fahrenheit below room temperature. The frame was made in house from pine. The cooling is done by a small thermoelectric cooler mounted between two desktop cpu cooling fans.</p>
 
-          <div id="pictures"></div>
+          <div id="pictures" align="center"></div>
 
-       <script src="http://d3js.org/d3.v3.js"></script>
+       <script src="http://d3js.org/d3.v3.js" align="center"></script>
        <style>
             body {
               background: #000;
@@ -102,7 +102,7 @@
                 .attr("href", img)
                 .append("img")
                 .attr({
-                  width: 200,
+                  width: 400,
                   src: img,
                 });
             });
@@ -112,9 +112,9 @@
           <a id="thegame-intro" class="anchor" href="#thegame-intro" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Board Game</h3>
           <p>Over the course of a summer I designed and put together a custom board game. It is best described as a combination of Risk and Settlers of Catan. The rules are still currently in flux. All of the pieces were designed in Solidworks and laser cut by me.</p>
           
-          <div id="pictures"></div>
+          <div id="pictures" align="center"></div>
 
-       <script src="http://d3js.org/d3.v3.js"></script>
+       <script src="http://d3js.org/d3.v3.js" align="center"></script>
        <style>
             body {
               background: #000;
@@ -135,7 +135,7 @@
                 .attr("href", img)
                 .append("img")
                 .attr({
-                  width: 200,
+                  width: 400,
                   src: img
                 });
             });
@@ -146,9 +146,9 @@
           <a id="engine-intro" class="anchor" href="#engine-intro" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Sterling Engine</h3>
           <p>For a mechanical engineering class I designed and machined a gamma style sterling engine. The coils were a custom addon and able to produce a 0.3V difference across the terminals.</p>
           
-          <div id="pictures"></div>
+          <div id="pictures" align="center"></div>
 
-       <script src="http://d3js.org/d3.v3.js"></script>
+       <script src="http://d3js.org/d3.v3.js" align="center"></script>
        <style>
             body {
               background: #000;
@@ -169,7 +169,7 @@
                 .attr("href", img)
                 .append("img")
                 .attr({
-                  width: 200,
+                  width: 400,
                   src: img
                 });
             });
