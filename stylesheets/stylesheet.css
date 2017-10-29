@@ -150,7 +150,7 @@ img {
 
 p img {
   display: inline;
-  margin: 0;
+  margin: auto auto;
   padding: 0;
   vertical-align: middle;
   text-align: center;
